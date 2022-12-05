@@ -10,7 +10,7 @@ body {
   position: relative;
   font-size: 10px;
   font-family: "Saira Semi Condensed", sans-serif;
-  max-width: 1440px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -105,6 +105,7 @@ section {
 #offer figure {
   display: inline-block;
   width: 450px;
+  
 }
 
 #offer figure img {
@@ -120,21 +121,21 @@ section {
   font-size: 1rem;
 }
 
-#certificates {
+#videos {
   text-align: center;
 }
 
-#certificates figure {
+#videos figure {
   display: inline-block;
   width: 670px;
 }
 
-#certificates figure img {
+#videos figure img {
   width: 100%;
   border: 2px solid #ddd;
 }
 
-#certificates figure figcaption {
+#videos figure figcaption {
   font-size: 1.5rem;
 }
 
@@ -168,16 +169,19 @@ section {
 }
 
 .wrap p {
-  font-size: 24px;
+  font-size: 20px;
+}
+
+.logo{
+  padding-left: 1vw;
 }
 
 .address {
-  padding-left: 5vw;
   flex-grow: 1;
 }
 
 .telephone {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 footer {

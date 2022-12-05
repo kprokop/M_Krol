@@ -56,6 +56,10 @@
         font-size: 0.5rem;
     }
 
+    .logo{
+        padding-left: 0;
+    }
+
     .address {
         padding-left: 0;
         text-align: left;
@@ -63,7 +67,7 @@
 
     .telephone {
         padding-left: 0;
-        flex-basis: 50%;
+        flex-basis: 40%;
     }
 
     footer a {
@@ -87,5 +91,8 @@
     #certificates figure,
     #gallery figure {
         width: 300px;
+    }
+    .logo{
+        max-width: 25%;
     }
 }
